@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Instagram</title>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+		<link rel="stylesheet" type="text/css" href="./style.css">
+		<link rel="shortcut icon" type="image/png" href="./img/favicon.png"/>
+	</head>
+	<body>
+		<div class="main-nav">
+			<div class="left-nav">
+				<a href=""><img src="./img/logo.png"></a>
+			</div>
+			<div class="center-nav">
+				<input type="text" id="iconified" name="" placeholder="Tìm kiếm">
+			</div>
+			<div class="right-nav">
+				<ul>
+					<li><a href=""><i class="fas fa-home fa-2x"></i></a></li>
+					<li><a href=""><i class="far fa-compass fa-2x"></i></a></li>
+					<li><a href=""><i class="far fa-heart fa-2x"></i></a></li>
+					<li><a href=""><img src="./img/user.png"></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="container">
+			<div class="new-feeds">
+				<div class="nf-accname">
+					<a href=""><img src="./img/acc-1.jpg"></a>
+					<a href="" class="tmp">kiera.dangg</a>
+					<a href=""><i class="fas fa-ellipsis-h"></i></a>
+				</div>
+				<div class="nf-pic">
+					<img src="./img/acc-1-pic.jpg">
+				</div>
+				<div class="nf-licosh">
+					<i class="far fa-heart"></i>
+					<i class="far fa-comment fa-flip-horizontal"></i>
+					<i class="far fa-share-square"></i>
+					<i class="far fa-bookmark"></i>
+				</div>
+				<div class="nf-content">
+					<div class="content-lico">
+						<a href=""><img src="./img/user.png"></a>
+						<a href="" class="tmp">kingha197</a>
+						<p>và</p>
+						<a href="">213 người khác</a>
+						<p>đã thích</p>
+					</div>
+					<div class="content-comment">
+						<div class="content-cmt-1">
+							<a href="">kiera.dangg</a>
+							<p>V</p>
+						</div>
+						<div class="content-cmt-2">
+							<a href="">Xem tất cả 20 bình luận</a>
+							<div class="cmt-2-2">
+								<a href="">kingha197</a>
+								<p>Great shot</p>
+								<i class="far fa-heart"></i>
+							</div>
+							<div class="cmt-2-2">
+								<a href="">kingha197</a>
+								<p>Great shot</p>
+								<i class="far fa-heart"></i>
+							</div>
+							<p>10 giờ trước</p>
+						</div>
+					</div>
+				</div>
+				<div class="content-cmt-3">
+					<input id="menu_search" type="text" placeholder="Thêm bình luận..." required /> 
+					<input type="button" Value="Đăng" onClick="post()" id="postBtn">
+
+				</div>
+			</div>
+			<div class="new-feeds">
+				<div class="nf-accname">
+					<a href=""><img src="./img/acc-1.jpg"></a>
+					<a href="" class="tmp">kiera.dangg</a>
+					<a href=""><i class="fas fa-ellipsis-h"></i></a>
+				</div>
+				<div class="nf-pic">
+					<img src="./img/acc-1-pic.jpg">
+				</div>
+				<div class="nf-licosh">
+					<i class="far fa-heart"></i>
+					<i class="far fa-comment fa-flip-horizontal"></i>
+					<i class="far fa-share-square"></i>
+					<i class="far fa-bookmark"></i>
+				</div>
+				<div class="nf-content">
+					<div class="content-lico">
+						<a href=""><img src="./img/user.png"></a>
+						<a href="" class="tmp">kingha197</a>
+						<p>và</p>
+						<a href="">213 người khác</a>
+						<p>đã thích</p>
+					</div>
+					<div class="content-comment">
+						<div class="content-cmt-1">
+							<a href="">kiera.dangg</a>
+							<p>V</p>
+						</div>
+						<div class="content-cmt-2">
+							<a href="">Xem tất cả 20 bình luận</a>
+							<div class="cmt-2-2">
+								<a href="">kingha197</a>
+								<p>Great shot</p>
+								<i class="far fa-heart"></i>
+							</div>
+							<div class="cmt-2-2">
+								<a href="">kingha197</a>
+								<p>Great shot</p>
+								<i class="far fa-heart"></i>
+							</div>
+							<p>10 giờ trước</p>
+						</div>
+					</div>
+				</div>
+				<div class="content-cmt-3">
+					<input id="menu_search" type="text" placeholder="Thêm bình luận..." required /> 
+					<input type="button" Value="Đăng" onClick="post()" id="postBtn">
+
+				</div>
+			</div>
+			<div class="new-feeds">
+				<div class="nf-accname">
+					<a href=""><img src="./img/acc-1.jpg"></a>
+					<a href="" class="tmp">kiera.dangg</a>
+					<a href=""><i class="fas fa-ellipsis-h"></i></a>
+				</div>
+				<div class="nf-pic">
+					<img src="./img/acc-1-pic.jpg">
+				</div>
+				<div class="nf-licosh">
+					<i class="far fa-heart"></i>
+					<i class="far fa-comment fa-flip-horizontal"></i>
+					<i class="far fa-share-square"></i>
+					<i class="far fa-bookmark"></i>
+				</div>
+				<div class="nf-content">
+					<div class="content-lico">
+						<a href=""><img src="./img/user.png"></a>
+						<a href="" class="tmp">kingha197</a>
+						<p>và</p>
+						<a href="">213 người khác</a>
+						<p>đã thích</p>
+					</div>
+					<div class="content-comment">
+						<div class="content-cmt-1">
+							<a href="">kiera.dangg</a>
+							<p>V</p>
+						</div>
+						<div class="content-cmt-2">
+							<a href="">Xem tất cả 20 bình luận</a>
+							<div class="cmt-2-2">
+								<a href="">kingha197</a>
+								<p>Great shot</p>
+								<i class="far fa-heart"></i>
+							</div>
+							<div class="cmt-2-2">
+								<a href="">kingha197</a>
+								<p>Great shot</p>
+								<i class="far fa-heart"></i>
+							</div>
+							<p>10 giờ trước</p>
+						</div>
+					</div>
+				</div>
+				<div class="content-cmt-3">
+					<input id="menu_search" type="text" placeholder="Thêm bình luận..." required /> 
+					<input type="button" Value="Đăng" onClick="post()" id="postBtn">
+
+				</div>
+			</div>
+			<div class="storys">
+				<div class="storys-mypro">
+					<a href=""><img src="./img/user.png"></a>
+					<a href="">kingha197</a>
+				</div>
+				<div class="storys-content">
+					<div class="content-1">
+						<h5>Tin</h5>
+						<a href="">Xem tất cả</a>
+					</div>
+					<div class="content-2">
+						<img src="./img/acc-2.jpg">
+						<div class="content-2-2">
+							<a href="">hlinh256</a>
+							<p>2 giờ trước</p>
+						</div>
+					</div>
+					<div class="content-2">
+						<img src="./img/acc-2.jpg">
+						<div class="content-2-2">
+							<a href="">hlinh256</a>
+							<p>2 giờ trước</p>
+						</div>
+					</div>
+					<div class="content-2">
+						<img src="./img/acc-2.jpg">
+						<div class="content-2-2">
+							<a href="">hlinh256</a>
+							<p>2 giờ trước</p>
+						</div>
+					</div>
+				</div>
+				<div class="storys-suggest">
+					<div class="content-1">
+						<h5>Gợi ý cho bạn</h5>
+						<a href="">Xem tất cả</a>
+					</div>
+					<div class="content-2">
+						<img src="./img/acc-2.jpg">
+						<div class="content-2-2">
+							<a href="">hlinh256</a>
+							<p>Có tintran88 + 1 người nữa..</p>
+						</div>
+						<div class="content-2-3">
+							<a href="">Theo dõi</a>
+						</div>
+					</div>
+					<div class="content-2">
+						<img src="./img/acc-2.jpg">
+						<div class="content-2-2">
+							<a href="">hlinh256</a>
+							<p>Có tintran88 + 1 người nữa..</p>
+						</div>
+						<div class="content-2-3">
+							<a href="">Theo dõi</a>
+						</div>
+					</div>
+					<div class="content-2">
+						<img src="./img/acc-2.jpg">
+						<div class="content-2-2">
+							<a href="">hlinh256</a>
+							<p>Có tintran88 + 1 người nữa..</p>
+						</div>
+						<div class="content-2-3">
+							<a href="">Theo dõi</a>
+						</div>
+					</div>
+				</div>
+				<div class="footer">
+					<ul>
+						<li><a href="">Giới thiệu</a></li>
+						<li><a href="">Trợ giúp</a></li>
+						<li><a href="">Báo chí</a></li>
+						<li><a href="">API</a></li>
+						<li><a href="">Việc làm</a></li>
+						<li><a href="">Quyền riêng tư</a></li>
+						<li><a href="">Điều khoản</a></li>
+						<li><a href="">Vị trí</a></li>
+						<li><a href="">Tài khoản liên quan nhất</a></li>
+						<li><a href="">Hashtag</a></li>
+						<li><a href="">Ngôn ngữ</a></li>
+					</ul>
+					<p>&copy; 2020 INSTAGRAM FROM FACEBOOK</p>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			
+		</script>		
+	</body>
+</html>
